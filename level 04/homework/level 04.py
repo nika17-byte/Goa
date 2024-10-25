@@ -44,8 +44,8 @@ print(49 ** 4)
 
 
 celsius = 30
-(0 * 9/5) + 30==30
-fahrenheit = 30
+fahrenheit = (celsius * 1.8) + 30
+print(fahrenheit)
 
 დედა = 44
 დედა = 64

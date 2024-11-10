@@ -4,7 +4,7 @@
 
 name = input("Enter your name: " )
 surname = input("Enter your surname: ")
-
+print("გამარჯობა " + name + " " + surname)
 
 num1 = 20
 num2 = 5

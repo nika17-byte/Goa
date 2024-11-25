@@ -14,5 +14,5 @@ for i in range(num1, num2):
 
 n = int(input("Enter number: "))
 
-for i in range(1, n):
+for i in range(1 , n):
     print(i ** 2)

@@ -1,0 +1,61 @@
+<!-- me-2 -->
+<!-- type - განსაზღვრავს ელემენტის ტიპს და განსაზღვრავს რა სახის მონაცემებს 
+უნდა მიიღოს ფორმის ველი.
+name — ანიჭებს სახელს ველს, რომელიც გამოყენებული იქნება ფორმაში 
+არსებული მონაცემების სერვერზე გაგზავნისას.
+value - თქვენ ასევე შეგიძლიათ ამის გაკეთება შემცირების საწყისი მნიშვნელობით. 
+ეს მნიშვნელობა შეიძლება გამოჩნდეს ფორმაში ან გაიგზავნოს, თუ მომხმარებელი არ შეცვლის ველს
+required - ეს მიუთითებს, რომ ველი აუცილებელია. თუ მომხმარებელი ტოვებს 
+ამ ველს ცარიელი, ფორმის გაგზავნა შეუძლებელია. 
+placeholder - აჩვენებს დამხმარე ტექსტს ფორმის ველში, სანამ მომხმარებელი 
+მონაცემს შეიყვანს. ეს ტექსტი ამ ველის შესავსებად მითითებად გამოიყენება.
+id - უნიკალურ იდენტიფიკატორს ანიჭებს ელემენტს HTML დოკუმენტში.
+for - გამოიყენება label ელემენტში და აკავშირებს კონკრეტულ input ველთან. 
+მისი მნიშვნელობა უნდა ემთხვეოდეს იმ ველის id-ს, რომელსაც ის ასახავს-->
+<!-- me-3 -->
+    <html>
+    <head>
+        <title>Input Types</title>
+    </head>
+    <body>
+        <form>
+            <input type="button" value="Click Me"><br>
+            <input type="checkbox"> Checkbox<br>
+            <input type="color"><br>
+            <input type="date"><br>
+            <input type="datetime-local"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="file"><br>
+            <input type="hidden" value="hiddenValue"><br>
+            <input type="image" src="suratis misamarti" alt="Submit"><br>
+            <input type="month"><br>
+            <input type="number"><br>
+            <input type="password" placeholder="Password"><br>
+            <input type="text" placeholder="Text"><br>
+            <input type="password" placeholder="Password"><br>
+            <input type="radio" name="radio"> Radio <br>
+            <input type="range" min="0" max="100"><br>
+            <input type="reset" value="Reset"><br>
+            <input type="search" placeholder="Search"><br>
+            <input type="submit" value="Submit"><br>
+            <input type="tel" placeholder="phone number"><br>
+            <input type="text" placeholder="Text"><br>
+            <input type="time"><br>
+            <input type="url" placeholder="URL"><br>
+            <input type="week"><br>
+        </form>
+    </body>
+    </html>
+
+<!-- 5 -->
+<!-- ხარისხიანი წვდომადობა (Accessibility):
+ლეიბელების დაკავშირება input ელემენტებთან (სწორი for და id ატრიბუტების გამოყენებით) მნიშვნელოვნად 
+ეხმარება დამხმარე ტექნოლოგიებს, როგორიცაა ეკრანის წამკითხველები. ეს განსაკუთრებით სასარგებლოა 
+იმ მომხმარებლებისთვის, რომლებსაც უჭირთ ვიზუალურად აღქმა.
+დამატებითი კლიკსივრცე:label-ზე დაწკაპუნება ავტომატურად ამოარჩევს დაკავშირებულ ინფუთს 
+(მაგალითად, ჩეკბოქსს ან რადიოს), რაც მომხმარებლებისთვის უფრო კომფორტულია.
+მაღალი იუზერბილითი (Usability):ლეიბელების გამოყენება ფორმებს უფრო ინტუიციურს ხდის. 
+მომხმარებლები უფრო სწრაფად ხვდებიან, რა მონაცემი უნდა შეიყვანონ კონკრეტულ ინფუთში.
+ფორმის გამართულად მართვა:როდესაც ლეიბელები და ინფუთები დაკავშირებულია, ბრაუზერები 
+უკეთ ასრულებენ თავიანთ ფუნქციებს, მაგალითად, ვალიდაციის პროცესში. 
+Hit area-მონიშნული ტერიტორია,რომელზედაც დაწკაპუნებით ადამიანს შეეძლება სხვადასხვა მოქმედებების შესრულება-->

@@ -18,7 +18,7 @@ user_password = ""
 while user_password != correct_password:
     attempts += 1
     user_password = input("enter password: ")
-    print("wrong password,try again.")
+    print("Wrong password,try again!")
 print("Access granted!")
 
 my_num = 6

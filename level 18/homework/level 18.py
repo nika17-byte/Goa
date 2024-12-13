@@ -15,7 +15,7 @@ if num3 % 2 == 0:
 else:
     print(num3,"-odd")
 # 5) Write a program to check if a number is positive or negative.
-num4 = int(input("Enter number: "))
+num4 = float(input("Enter number: "))
 if num4 > 0:
     print(num4,"-positive")
 else:
@@ -43,20 +43,24 @@ while user_guess != correct_password:
 print("Access granted")
 print("Your guess count:", str(counter))
 # 9) Write a program that takes two numbers and an operator (+, -, *, /) as input and performs the calculation. Display the result and end the program.
-num7 = int(input("Enter number: "))
-num8 = int(input("Enter number: "))
-operator = input("Enter an operator (+, -, *, /): ")
-if operator == '+':
-    result = num7 + num8
-if operator == '-':
-    result = num7 - num8
-if operator == '*':
-    result = num7 * num8
-if operator == '/':
-    if num8 != 0:
-        result = num7 / num8
+num1 = float(input("Enter number: "))
+num2 = float(input("Enter number: "))
+operator = input("Choose one operator: +, -, *, /, **, %  ")
+
+if operator == "+":
+    print(num1, "+", num2, "=", num1+num2)
+elif operator == "-":
+    print(num1, "-", num2, "=", num1-num2)
+elif operator == "*":
+    print(num1, "*", num2, "=", num1*num2)
+elif operator == "/":
+    if num2 == 0:
+        print("გაყოფა 0-ზე არ შეიძლება")
     else:
-        result = "Error! Division by zero."
-if operator != '+' and operator != '-' and operator != '*' and operator != '/':
-    result = "Invalid operator!"
-print("Result:", result)
+        print(num1, "/", num2, "=", num1/num2)
+elif operator == "**":
+    print(num1, "**", num2, "=", num1**num2)
+elif operator == "%":
+    print(num1, "%", num2, "=", num1%num2)
+else:
+    print("Wrong operator")

@@ -8,17 +8,17 @@ for i in list:
 # თუ num1 მეტია num2-ზე, slicing მოახდინეთ სიაზე num1 ინდექსიდან num2 ინდექსამდე და დაბეჭდეთ ახალი სია.
 # თუ num2 მეტია num1-ზე, slicing მოახდინეთ სიაზე num2 ინდექსიდან num1 ინდექსამდე და დაბეჭდეთ ახალი სია.
 # თუ ეს ორი რიცხვი ტოლია, დაბეჭდეთ ცარიელი სია.
-# list1 = ["goa" , "best" , "programming" , "academy" , 11 , 12 , 13 , 14 , 15 , 17]
-# num1 = int(input("Enter number from 0 to 9: "))
-# num2 = int(input("Enter number from 0 to 9: "))
-# if num1 > num2:
-#     result = list1[num2:num1]
-#     print("new list:", result)
-# elif num2 > num1:
-#     result = list1[num1:num2]
-#     print("new list:", result)
-# else:
-#     print("new list: []")
+list1 = ["goa" , "best" , "programming" , "academy" , 11 , 12 , 13 , 14 , 15 , 17]
+num1 = int(input("Enter number from 0 to 9: "))
+num2 = int(input("Enter number from 0 to 9: "))
+if num1 > num2:
+    result = list1[num2:num1]
+    print("new list:", result)
+elif num2 > num1:
+    result = list1[num1:num2]
+    print("new list:", result)
+else:
+    print("new list: []")
 # 5) Given a list of numbers, print the first, third, and last elements using indexing.
 list2 = [30 , 40 , 50 , 60 , 70 , 80]
 print(list2[0] , list2[2] , list2[5])

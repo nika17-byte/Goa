@@ -1,0 +1,4 @@
+/* 4) Create a simple HTML and CSS file where the text color is inherited from a parent <div> to its child <p> elements. Then, override the inherited text color for one specific <p> element. */
+div {
+    color: aqua;
+}

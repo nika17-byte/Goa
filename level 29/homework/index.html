@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- 2) თქვენი სიტყვებით ახსენით რა განსხვავებაა id და class ატრიბუტებს შორის, ასევე ახსენით როდის რომლის გამოყენება სჯობს -->
+        <!--ერთი id-ის გამოყენება არ შეგვძლია ბევრ ელემენტზე,ხოლო class-ის გამოყენება ბევრ  ელემენტზე შეგვიძლია.id-ს ვიყენებთ ნავიგაციისთვის,ხოლო class-ს ვიყენებთ როცა ბევრ ელემენტზე სტილების შეცვლა გვინდა-->
+        <!-- 3) html-ის დოკუმენტში დაამატეთ 5 პარაგრაფი და თითოეულს გაუწერეთ განსხვავებული ფერი, გამოიყენეთ id ატრიბუტი თითეულ ელემენტთან და სელექტორიც გაწერეთ id-ის გამოყენებით -->
+        <p id="id1">Lorem</p>
+        <p id="id2">Lorem, ipsum.</p>
+        <p id="id3">Lorem, ipsum dolor.</p>
+        <p id="id4">Lorem ipsum dolor sit.</p>
+        <p id="id5">Lorem ipsum dolor sit amet.</p>
+        <br><br>
+        <!-- 4) html-ის დოკუმენტში დაამატეთ 5 ღილაკი და ყველა მათგანის ფონის ფერი გაწერეთ შავი, გამოიყენეთ class -->
+        <button class="btn">Click Me</button>
+        <button class="btn">See More</button>
+        <button class="btn">OK</button>
+        <button class="btn">HELLO</button>
+        <button class="btn">Like</button>
+        <br><br>
+        <!-- 5) თქვენი სიტყვებით ახსენით რა არის css specificity და ჩამოწერეთ პრიორიტეტების სია -->
+        <!-- css specificity არის ალგორითმი, რომელსაც იყენებენ ბრაუზერები ელემენტზე გამოყენების წესის დასადგენად. -->
+        <!-- 1.inline style -->
+        <!-- 2.id -->
+        <!-- 3.class -->
+        <!-- 4.elements -->
+        <!-- 6) html-ის დოკუმენტში დაამატეთ ერთი ღილაკი, მას გაუწერეთ id და class ატრიბუტები.
+        css-ის კოდში ეს ელემენტი აირჩიეთ ორჯერ: 1 - id in selector, 2 - class in selector და 
+        ორივე css-ის წესში აირჩიეთ color კუთვნილება. კოდი ისე გაწერეთ რომ ფერი გამოვიდეს ლურჯი 
+        (დააკვირდით ამ მნიშვნელობას რომელ წესში გადასცემთ color კუთვნილებას) -->
+        <button id="id6" class="btn-class">Click Me</button>
+        <br><br>
+        <!-- 7) თქვენი სიტყვებით ახსენით რა არის rgb და როდის ვიყენებთ მას -->
+        <!-- RGB-(red , green , blue)არის ფერების აღწერის და შედგენის ხერხი,რომელიც მის შესადგენად 
+        სამ კომპონენტს იყენებს:Red(წითელი),Green(მწვანე) და Blue(ლურჯი) -->
+        <!-- 8) html-ის დოკუმენტში გაწერეთ 5 დივ ბლოკი. თითოეულ მათგანს უნდა ქონდეს საკუთარი 
+        id და მათში მოთავსებული უნდა იყოს 2 paragraph, 2 button.
+        თითოეული დივ ბლოკი გასტილეთ, სელექტორში გამოიყენეთ i: დივ ბლოკს უნდა შეეცვალოს 
+        ფერი და ფონის ფერი (გამოიყენეთ rgb) -->
+        <div id="id7">
+            <p>Lorem, ipsum.</p>
+            <p>Lorem, ipsum.</p>
+            <button>Click me</button>
+            <button>Click me</button>
+        </div>
+        <div id="id8">
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <button>Hello</button>
+            <button>See More</button>
+        </div>
+        <div id="id9">
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem ipsum dolor sit.</p>
+            <button>See More</button>
+            <button>Hello</button>
+        </div>
+        <div id="id10">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Like</button>
+            <button>OK</button>
+        </div>
+        <div id="id11">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <button>OK</button>
+            <button>Like</button>
+        </div>
+    </body>
+</html>

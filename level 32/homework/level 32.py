@@ -34,7 +34,9 @@ sentence = input("Enter sentence: ")
 words = sentence_in_words(sentence)
 print(f"List of words: {words}")
 #8) Create a function that takes a string of comma-separated values (CSV) and returns a list of individual items.
-# ?
+def list(string):
+    # სტრიქონი იყოფა მძიმის (',') გამოყენებით და გარდაიქმნება სიად
+    return string.split(',')
 #9) Write a function that takes a paragraph and splits it into sentences based on periods.
 def my_split(main_string, string_to_split):
     split_list = main_string.split(string_to_split)
@@ -53,21 +55,15 @@ item_to_append = 4
 manual_append(main_list, item_to_append)
 print(main_list)
 # 11) Create a function that takes a list and a list of items, and appends each item to the original list.
-# ?
+def append_items(original_list, items):
+    original_list += items
+    return original_list
 # 12) Create a function that appends all elements of one list to another list.
-# ?
+def list(list1, list2):
+    list1 += list2
+    return list1
 # 13) Write a function that takes a list, an index, and an item, and inserts the item at the specified index.
-def insert_word(sentence, word, index):
-    if index < 0:
-        index = 0
-    elif index > len(sentence):
-        index = len(sentence)
-    print(sentence[:index] + word + sentence[index:])
-
-sentence = input("Enter sentence: ")
-word = input("Enter word: ")
-index = int(input("Enter index: "))
-insert_word(sentence, word, index)
+# ?
 # 14) Create a function that inserts an item at the beginning of a list.
 def insert_beggining(my_list,item):
     my_list.insert(0 , item)

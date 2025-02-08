@@ -1,0 +1,61 @@
+#id1 {
+    color: rgb(15, 213, 154);
+}
+#id2 {
+    text-decoration: none;
+}
+#id3:hover {
+    text-decoration: underline;
+}
+#id4:hover{
+    color: #77ff00;
+}
+#id5:visited{
+    color: #ff00fb;
+}
+#id6:hover{
+    background-color: rgb(0, 0, 0);
+}
+#id7 {
+    font-weight: bold;
+}
+#id8 {
+    font-style: italic;
+}
+#id9{
+    text-transform: uppercase;
+}
+
+table.table-class1 {
+    border: 2px solid black; 
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr.tr-class1 {
+    border: 1px solid blue;
+}
+
+td.td-class1 {
+    border: 1px solid red;
+    padding: 8px;
+    text-align: left;
+}
+
+table.table-class2 {
+    border: 2px solid black; 
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td.td-class2, th.th-class {
+    border: 1px solid rgb(0, 255, 68);
+    padding: 8px cell;
+    text-align: left; 
+}
+tr.tr-class3{
+    background-color: #77ff00;
+}
+th.th-class3 {
+    background-color: #ff00fb;
+}

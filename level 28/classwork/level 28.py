@@ -9,4 +9,4 @@ def manual_index(main_string, search_string):
 main_string = "Hello world"
 search_string = ""
 index = manual_index(main_string, search_string)
-print("საძიებელი სტრინგი", search_string "ნაპოვნია ინდექსზე ", index)
+print("საძიებელი სტრინგი", search_string, "ნაპოვნია ინდექსზე ", index)

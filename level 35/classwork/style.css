@@ -1,0 +1,26 @@
+/*  საკლასო დავალება:
+თქვენს html-ის დოკუმენტში გაწერეთ 5 ლინკი, თითოეულს გაუწერეთ მისამართი.
+როდესაც მოხდება ლინკზე hover, მაგ დროს გაზარდეთ ტექსტის ზომა და სისქე, ასევე შეცვალეთ ტექტის ფერი - გამოიყენეთ rgb / hexadecimal.
+როდესაც მოხდება ლინკზე active მოვლენა, მაგ დროს შეამცირეთ ტექსტის ზომა და სისქე, ასევე შეცვალეთ ტექტის ფერი - გამოიყენეთ rgb / hexadecimal. */
+#id:hover{
+    font-weight: 600px;
+    height: 600px;
+    font-size: large;
+    color: rgb(0, 255, 255);
+}
+#id:active{
+    font-weight: 300px;
+    font-size: medium;
+    height: 300px;
+    color: rgb(65, 178, 27);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 5px solid green;
+    padding: 10px;
+    text-align: center;
+}

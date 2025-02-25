@@ -97,6 +97,9 @@ def basic_op(operator, value1, value2):
             return "Division by zero"
     else:
         return "Invalid operator"
+    
+def litres(time):
+    return time // 2
 
 def century(year):
     if year % 100 == 0:

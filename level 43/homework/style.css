@@ -1,0 +1,26 @@
+/* 4) შექმენით მსგავსი განლაგების ნავბარი: */
+.nav-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #0A2A35;  
+}
+
+.NAVBAR {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    color: white;
+}
+#HOME {
+    color: gold;
+}
+/* 5) შექმენით მსგავსი განლაგების ვებსაიტი: */

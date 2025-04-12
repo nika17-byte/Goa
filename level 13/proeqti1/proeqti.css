@@ -1,0 +1,28 @@
+
+p  {
+    text-align: center;
+}
+
+img {
+     box-shadow: 10px 10px 15px 
+     rgba(0,0,0,0.5)
+}
+
+p  {
+    border-style: groove;
+}
+
+img {
+    box-shadow: 10px 10px 15px
+    rgba(0,0,0,0.5)
+}
+
+
+p {
+    color: snow;
+}
+
+img {
+    box-shadow: 10px 10px 15px
+    rgba(0,0,0,0.5)
+}

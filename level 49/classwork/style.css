@@ -1,0 +1,27 @@
+#id1{
+    width: 100px;
+    height: 100px;
+    background-color: #bb2f81;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+}
+#id1:active {
+    transform: rotate(30deg);
+}
+/* საკლასო დავალება:
+div ბლოკის საწყისი ფონტის ზომა იყოს 20px, ფერი იყოს თეთრი და ფონის ფერი იყოს შავი.
+როდესაც დივ ბლოკზე მოხდება active მოვლენა, შეიცვალოს შემდეგი კუთვნილებები: ფონტის ზომა გახდეს 25px, ფერი გახდეს შავი და ფონის ფერი გახდეს თეთრი.
+ფონტის ზომის შეცვლა უნდა გაგრძელდეს 1 წამი, ხოლო ფერის და ფონის ფერიც ცვლილებები გაგრძელდეს 2 წამი */
+#id2{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    transition: font-size 1s, color 2s, background-color 2s;
+}
+
+#id2:active {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}

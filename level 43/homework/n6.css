@@ -1,0 +1,52 @@
+/* 6) შექმენით მსგავსი განლაგების ვებსაიტი: */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+header, footer {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+header {
+    background: #FF4500;
+}
+
+footer {
+    background: #FF1493; 
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+
+.left-sidebar {
+    flex: 1;
+    background: #1E90FF;
+    padding: 20px;
+}
+
+
+main {
+    flex: 2;
+    background: #483D8B; 
+    padding: 20px;
+    color: white;
+}
+
+
+.right-sidebar {
+    flex: 1;
+    background: #228B22;
+    padding: 20px;
+    color: white;
+}

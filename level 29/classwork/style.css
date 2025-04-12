@@ -1,0 +1,13 @@
+/* საკლასო დავალება:
+html-ის კოდში გაწერეთ ელემენტები ისე, რომ გამოყენებული გქონდეთ id და class ატრიბუტები.
+html-ის და css-ის ფაილებში მოცემული უნდა იყოს ელემენტების გასტილვის ოთხივე მიდგომა - inline, id, class, element selector */
+p#id1 {
+    color: aqua;
+    text-align: left;
+}
+
+button.num1 {
+    color: blue;
+    text-align: end;
+}
+

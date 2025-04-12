@@ -1,0 +1,84 @@
+/* საკლასო დავალება:
+html-ის დოკუმენტში ერთი დივ ბლოკი მოათავსეთ მეორეში.
+მშობელი დივ ბლოკის სიმაღლე იყოს 700px და სიგანეც 700px, ფონის ფერი გაუწერეთ ნებისმიერი.
+მისი შვილობილი დივ ბლოკის სიგანე და სიმაღლე იყოს 50-50px, ფონის ფერიც გაუწერეთ. 
+პოზიციების გამოყენებით შვილობილი ელემენტი მოათავსეთ მშობელი ელემენტის ცენტრში - ვერტიკალურადაც და ჰორიზონტალურადაც */
+#parent-div{
+    height: 700px;
+    width: 700px;
+    background-color: #00ffff;
+    position: relative;
+}
+#child-div{
+    position: absolute;
+    background-color: #cf1c93;
+    height: 50px;
+    width: 50px;
+    left: 325px;
+    bottom: 325px;
+}
+/* საკლასო დავალება:
+
+html-ის დოკუმენტში აიღეთ ერთი დივ ბლოკი. მისი სიმაღლე იყოს 500px, ხოლო სიგანე 
+1000px. მისი კუთხეები მოამრგვალეთ. დაამატეთ საზღვარი ამ დივ ბლოკს. მას გაუწერეთ 
+background image, რომელიც მთლიანად უნდა ფარავდეს div block-ს. */
+#div-styling{
+    height: 500px;
+    width: 1000px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    background-image: url(giannis2.jpg);
+    background-size: cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+.container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+}
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+.red {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+.green {
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+.blue {
+    background-color: blue;
+    bottom: 0;
+    left: 0;
+}
+.purple {
+    background-color: purple;
+    bottom: 0;
+    right: 0;
+}
+.footer {
+    background-color: #555;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+}

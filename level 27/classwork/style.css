@@ -1,0 +1,19 @@
+/* საკლასო დავალება: შექმენით css-ის ფაილი და დააკავშირეთ html-ის ფაილთან. css-ში ფაილში აირჩიეთ რომელიმე ელემენტი და მას შეუცვალეთ  */
+/* შემდეგი 6 კუთვნილება: ფერი, ფონის ფერი, განლაგება, ტექსტის ზომა, ტექსტის სისქე და საზღვარი */
+p {
+    color: red;
+    background-color: aliceblue;
+    text-align:center;
+    font-size: large;
+    font-weight: 100px;
+    border-style: dashed;
+}
+
+div {
+    color:beige;
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    font-weight: 300;
+    border: 2px green solid;
+}

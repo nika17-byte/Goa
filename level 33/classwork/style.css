@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+#hello {
+    text-decoration: underline dashed green;
+    text-align: right;
+}
+#world {
+    text-decoration: line-through;
+    text-align: center;
+}
+#toloba  {
+    color: #ff0000;
+    text-align: left;
+}
+#dzaxilisnish {
+    text-align: left;
+}
+#Goal{
+    text-decoration: underline;
+    text-align: center;
+}
+#Oriented {
+    text-decoration: line-through green;
+    text-align: right;
+}
+#Academy {
+    text-decoration: overline;
+}
+#is {
+    text-decoration: overline ;
+    text-align: left;
+}
+#the {
+    text-decoration: overline green;
+    color: green;
+    text-align: right;
+}
+#BEST {
+    text-decoration: underline dashed gray;
+    text-align: center;
+    color: gray;
+}
+#one{
+    text-align: right;
+    text-decoration: underline green dashed;
+}
+/* საკლასო დავალება:
+css-ის ფაილში დააიმპორტეთ სასურველი ფონტი google fonts ვებსაიტიდან და შემდეგ ეს font-family გაუწერეთ body თეგს */
+@font-face {
+    font-family: 'smooch sans';
+    src: url('smooch sans.woff') format('woff');
+}
+body{
+    font-family: smoo;
+}

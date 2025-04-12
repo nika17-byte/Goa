@@ -1,0 +1,68 @@
+/*  2) Style the Input Fields – Add a border, padding, and background color to input fields to make them more visually appealing. */
+input[type="text"] {
+    border: 2px solid #ccccccef;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+/*  3) Customize the Submit Button – Style the submit button with a custom color, rounded corners, and a hover effect.  */
+button[type="submit"] {
+    background-color: #32b436;
+    border: none;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+input[type="tel"] {
+    border: 2px solid gold;
+    background-color: fuchsia;
+}
+/*  5) Style Error Messages – Design error messages with red text, a small icon, and appropriate spacing to make form validation clearer.  */
+.error-message {
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+    margin-top: 5px;
+}
+/* 6) Add Padding to a Div – Apply padding inside a <div> to create space between the content and its border. */
+#div-styling {
+    color: rgb(102, 51, 153);
+    padding:  20px;
+    border: 1px solid #000;
+    background-color: #f4f4f4;
+}
+/* 7) Set Different Padding Values – Apply different padding values for the top, right, bottom, and left sides of an element. */
+.element {
+    padding: 10px 15px 20px 25px;
+}
+/* 8) Create a Box with a Border – Add a solid border to a <div> and customize its color, width, and style. */
+#styling-div {
+    border: solid #32b436 80px;
+}
+/* 9) Round the Corners of a Box – Use border-radius to create rounded corners on a <div>. */
+#styling-div2 {
+    border: solid gold 80px;
+    border-radius: 10%;
+}
+/* 10) Add Margins Around a Paragraph – Apply a margin to a <p> element to create space between it and surrounding elements. */
+#margin-p {
+    margin: 50px;
+}
+/* 11) Create a Button with Padding and Border – Style a button with padding inside and a border around it. */
+#styling-button {
+    padding: 10px 10px 10px 10px;
+    border: solid red 15px;
+}
+/* 12) Make a Box with a Shadowed Border – Apply a border and a subtle box-shadow to a <div> for a lifted effect. */
+#styling-div3 {
+    border:  solid gray 15px;
+    box-shadow: 5px 5px;
+}
+/* 13) Adjust Margin Between List Items – Add margin to <li> elements to space out items in an unordered list. */
+li {
+    margin: 50px;
+}
+/* 14) Use Negative Margins – Experiment with negative margins to move an element closer to another or overlap elements. */
+.p-class {
+    margin: -10px;
+}

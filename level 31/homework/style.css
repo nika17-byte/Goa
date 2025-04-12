@@ -1,0 +1,105 @@
+/* 4) html-ის დოკუმენტში დაამატეთ 10 პარაგრაფი, თითოეულს გაუწერეთ განსხვავებული ტექსტის და ფონის ფერი. პირველ ხუთ პარაგრაფზე გამოიყენეთ rgb color model, დანარჩენ ხუთზე კი hex color model */
+#id1 {
+    color: rgb(84, 100, 3);
+    background-color: rgb(124, 192, 235);
+}
+#id2 {
+    color: rgb(178, 255, 127);
+    background-color: rgb(75, 0, 130);
+}
+#id3 {
+    color: rgb(213, 56, 228);
+    background-color: rgb(24, 189, 204);
+}
+#id4 {
+    color: rgb(139, 0, 123);
+    background-color: rgb(0, 132, 255);
+}
+#id5 {
+    color: rgb(242, 0, 255);
+    background-color: rgb(9, 26, 26);
+}
+#id6 {
+    color: #bf00d4;
+    background-color: rgb(99, 0, 0);
+}
+#id7 {
+    color: #c6d039;
+    background-color: #34c894;
+}
+#id8 {
+    color: #d526d2;
+    background-color: rgb(127, 255, 215);
+}
+#id9 {
+    color: #7ac814;
+    background-color: rgb(171, 190, 118);
+}
+#id10 {
+    color: #aa19b2;
+    background-color: #730146;
+}
+/* 5) ვებსაიტზე დაამატეთ დივ ბლოკი, რომლის სიგანე და სიმაღლე იქნება ტოლი - 1000 პიქსელი და მისი ფონის ფერი იქნება მწვანე. ამ დივ 
+ბლოკში ჩააშენეთ შვილობილი დივ ბლოკი, რომლის სიგანე იქნება მშობელი დივ ბლოკის სიგანის 20% და სიმაღლის 15%. ამ შვილობილი დივ ბლოკის
+ფონის ფერი უნდა იყოს შავი.ფერის გაწერისას, ორივე შემთხვევაში გამოიყენეთ hex color model */
+#div-daddy {
+    height: 1000px;
+    width: 1000px;
+    background-color: #008000;
+}
+#div-child {
+    height: 15%;
+    width: 20%;
+    background-color: #000000;
+}
+/* 6) ვებსაიტზე დაამატეთ 10 დივ ბლოკი. თითოეულის სიმაღლე და სიგანე უნდა აღემატებოდეს 100 პიქსელს და ყველას უნდა ქონდეს განსხვავებული ფონის ფერი */
+#div1 {
+    height: 120px;
+    width: 130px;
+    background-color: #d526d2;
+}
+#div2 {
+    height: 110px;
+    width: 105px;
+    background-color: #f16480;
+}
+#div3{
+    height: 150px;
+    width: 150px;
+    background-color: #730146;
+}
+#div4{
+    height: 153px;
+    width: 132px;
+    background-color: #008000;
+}
+#div5{
+    height: 111px;
+    width: 123px;
+    background-color: #f16480;
+}
+#div6{
+    height: 134px;
+    width: 143px;
+    background-color: rgb(42, 73, 174);
+}
+#div7{
+    height: 101px;
+    width: 190px;
+    background-color: brown;
+}
+#div8{
+    height: 134px;
+    width: 200px;
+    background-color: burlywood;
+}
+#div9{
+    height: 102px;
+    width: 180px;
+    background-color: #7ed429;
+}
+#div10{
+    height: 120px;
+    width: 320px;
+    background-color: rgb(47, 79, 79);
+}

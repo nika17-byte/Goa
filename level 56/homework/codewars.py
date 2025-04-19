@@ -152,81 +152,81 @@ def fix_the_meerkat(arr):
     arr.reverse()
     return arr
 
-# # 2) Print your name
-# # Task: Write a program that prints your full name.
-# print("nika samkharadze")
+# 2) Print your name
+# Task: Write a program that prints your full name.
+print("nika samkharadze")
 
-# # 3) Print a favorite quote
-# # Task: Print your favorite quote, including quotation marks.
-# print("'rest in the end,not in the middle'")
+# 3) Print a favorite quote
+# Task: Print your favorite quote, including quotation marks.
+print("'rest in the end,not in the middle'")
 
-# # 4) Print multiple lines
-# # Task: Use the print() function to display a short poem or 3-line message, with each line printed separately.
-# print("რომელმან შექმნა სამყარო ძალითა მით ძლიერითა,"
-# "ზეგარდმო არსნი სულითა ყვნა ზეცით მონაბერითა,"
-# "ჩვენ, კაცთა, მოგვცა ქვეყანა, გვაქვს უთვალავი ფერითა,")
-# # 5) Print a simple math result
-# # Task: Print the result of a simple addition, like 2 + 3, using print().
-# print(2 + 3)
-# # 6) Print a shape with symbols
-# # Task: Use print() to draw a simple shape, like a triangle or square, using * or #.
-# print("   *   ")
-# print("  ***  ")
-# print(" ***** ")
-# # 7) Convert string to integer
-# # Task: Create a variable with a numeric string (e.g., "42"), convert it to an integer, and print the result.
-# numeric_string = "42"
-# print(int(numeric_string))
-# # 8) Add two floats
-# # Task: Create two float variables (e.g., 3.5 and 2.5), add them together, and print the result.
-# float1 = 3.5
-# float2 = 2.5
-# num_floats = float1 + float2
-# print(num_floats)
-# # 9) Concatenate two strings
-# # Task: Create two str variables (e.g., "Hello" and "World"), join them with a space in between, and print the result.
-# str1 = "Hello"
-# str2 = "World"
-# print(str1 + " " + str2)
+# 4) Print multiple lines
+# Task: Use the print() function to display a short poem or 3-line message, with each line printed separately.
+print("რომელმან შექმნა სამყარო ძალითა მით ძლიერითა,"
+"ზეგარდმო არსნი სულითა ყვნა ზეცით მონაბერითა,"
+"ჩვენ, კაცთა, მოგვცა ქვეყანა, გვაქვს უთვალავი ფერითა,")
+# 5) Print a simple math result
+# Task: Print the result of a simple addition, like 2 + 3, using print().
+print(2 + 3)
+# 6) Print a shape with symbols
+# Task: Use print() to draw a simple shape, like a triangle or square, using * or #.
+print("   *   ")
+print("  ***  ")
+print(" ***** ")
+# 7) Convert string to integer
+# Task: Create a variable with a numeric string (e.g., "42"), convert it to an integer, and print the result.
+numeric_string = "42"
+print(int(numeric_string))
+# 8) Add two floats
+# Task: Create two float variables (e.g., 3.5 and 2.5), add them together, and print the result.
+float1 = 3.5
+float2 = 2.5
+num_floats = float1 + float2
+print(num_floats)
+# 9) Concatenate two strings
+# Task: Create two str variables (e.g., "Hello" and "World"), join them with a space in between, and print the result.
+str1 = "Hello"
+str2 = "World"
+print(str1 + " " + str2)
 
-# # 10) Print data types
-# # Task: Create one variable each of type int, str, and float, and use the type() function with print() to show their data types.
-# int1 = 5
-# string1 = "nika"
-# float3 = 5.4
-# print(f"int1- {type(int1)}")
-# print(f"string1- {type(string1)}")
-# print(f"float3- {type(float3)}")
-# # 11) User input and type conversion
-# # Task: Ask the user for their age using input(), convert it to an integer, add 1, and print their age next year.
-# age = int(input("Enter your age: "))
-# next_year = age + 1
-# print(f"your age next year will be {next_year}")
-# # 12) Ask for your name
-# # Task: Write a program that asks the user for their name and prints a greeting, like "Hello, [name]!".
-# name = input("enter your name: ")
-# print(f"Hello, {name}")
-# # 13) Ask for age and calculate next year’s age
-# # Task: Ask the user for their age and then print how old they will be next year.
-# age = int(input("Enter your age: "))
-# next_year = age + 1
-# print(f"your age next year will be {next_year}")
-# # 14) Simple calculator: addition
-# # Task: Ask the user for two numbers (as input), convert them to integers, and print the sum.
-# num1 = int(input("Enter number 1: "))
-# num2 = int(input("Enter number 2: "))
-# print(num1 + num2)
-# # 15) Favorite color
-# # Task: Ask the user for their favorite color and then print a message like "Your favorite color is [color]!".
-# fav_color = input("Enter your favourite color: ")
-# print(f"Your favourite color is {fav_color}")
-# # 16) Check if the user is tall enough
-# # Task: Ask the user for their height (in cm) and check if they are taller than 150 cm. Print an appropriate message based on their height.
-# height = int(input("Enter your height in cm: "))
-# if height > 150:
-#     print("You are tall")
-# else:
-#     print("you are not tall")
+# 10) Print data types
+# Task: Create one variable each of type int, str, and float, and use the type() function with print() to show their data types.
+int1 = 5
+string1 = "nika"
+float3 = 5.4
+print(f"int1- {type(int1)}")
+print(f"string1- {type(string1)}")
+print(f"float3- {type(float3)}")
+# 11) User input and type conversion
+# Task: Ask the user for their age using input(), convert it to an integer, add 1, and print their age next year.
+age = int(input("Enter your age: "))
+next_year = age + 1
+print(f"your age next year will be {next_year}")
+# 12) Ask for your name
+# Task: Write a program that asks the user for their name and prints a greeting, like "Hello, [name]!".
+name = input("enter your name: ")
+print(f"Hello, {name}")
+# 13) Ask for age and calculate next year’s age
+# Task: Ask the user for their age and then print how old they will be next year.
+age = int(input("Enter your age: "))
+next_year = age + 1
+print(f"your age next year will be {next_year}")
+# 14) Simple calculator: addition
+# Task: Ask the user for two numbers (as input), convert them to integers, and print the sum.
+num1 = int(input("Enter number 1: "))
+num2 = int(input("Enter number 2: "))
+print(num1 + num2)
+# 15) Favorite color
+# Task: Ask the user for their favorite color and then print a message like "Your favorite color is [color]!".
+fav_color = input("Enter your favourite color: ")
+print(f"Your favourite color is {fav_color}")
+# 16) Check if the user is tall enough
+# Task: Ask the user for their height (in cm) and check if they are taller than 150 cm. Print an appropriate message based on their height.
+height = int(input("Enter your height in cm: "))
+if height > 150:
+    print("You are tall")
+else:
+    print("you are not tall")
 # 17) Print numbers from 1 to 5
 # Task: Write a program that uses a for loop to print the numbers from 1 to 5.
 for i in range(1 , 5):

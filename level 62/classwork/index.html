@@ -1,0 +1,44 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <!-- საკლასო დავალება:
+        html-ში დაამატეთ ერთი ღილაკი, რომლის id იქნება button-main.
+        ეს ღილაკი id-ის გამოყენებით წამოიღეთ js-ში და მისი ტექსტკონტენტი გაუტოლეთ თქვენს სახელს. -->
+        <button id="button-main">click me</button>
+        <script>
+            let button = document.getElementById('button-main');
+        
+            button.textContent = "nika";
+        </script>
+        <!-- საკლასო დავალება:
+        html-ში დაამატეთ პირველი დონის სათაური, რომლის id იქნება h1-1.
+        ეს ელემენტი წამოიღეთ js-ში და მას შეუცვალეთ: ფერი, ფონის ფერი, font weight, font size, border radius -->
+        <h1 id="h1-1">Heading 1</h1>
+        <script>
+            let heading = document.getElementById('h1-1');
+            heading.style.color = 'white';            
+            heading.style.backgroundColor = 'blue'; 
+            heading.style.fontWeight = 'bold';        
+            heading.style.fontSize = '36px';          
+            heading.style.borderRadius = '10px'; 
+        </script>
+        <!-- საკლასო დავალება:
+        html-ის დოკუმენტში დაამატეთ ერთი ღილაკი, რომლის ID იქნება button-main და ერთი პარაგრაფი, რომლის ID იქნება p-main.
+        js-ში წამოიღეთ ორივე ელემენტი ID-ის გამოყენებით.
+        ღილაკს შეუცვალეთ ფონი და ტექსტის ფერი, ხოლო პარაგრაფს შეუცვალეთ ფონტის ზომა და ტექსტ კონტენტი -->
+        <button id="button-main">Button</button>
+        <p id="p-main">paragraph</p>
+
+        <script>
+            let button = document.getElementById('button-main');
+            let paragraph = document.getElementById('p-main');
+            button.style.backgroundColor = 'green';
+            button.style.color = 'white'; 
+            paragraph.style.fontSize = '20px'; 
+            paragraph.textContent = 'This is the updated paragraph text';
+        </script>
+    </body>
+</html>

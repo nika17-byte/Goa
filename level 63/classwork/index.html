@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- საკლასო დავალება:
+        შექმენით js-ის ფუნქცია, რომელიც წამოიღებს ნებისმიერ ელემენტს id-ის გამოყენებით და ამ ელემენტს შეუცვლის ტექსტის განლაგებას.
+        როდესაც დავაკლიკებთ ამ ელემენტს, მაშინ უნდა გაეშვას ჩვენს მიერ შექმნილი ფუნქცია -->
+        <p id="text">text</p>
+        <button onclick="changeText()">text align center</button>
+        <script>
+            function changeText() {
+            document.getElementById("text").style.textAlign = "center";
+            }
+        </script>
+        <p id="text-2" onclick="">Lorem ipsum dolor sit amet consectetur.</p>
+        <p id="greeting">click here!</p>
+    </body>
+</html>

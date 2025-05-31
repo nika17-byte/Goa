@@ -25,6 +25,7 @@ def high_and_low(numbers):
 # საკლასო დავალება:
 
 # https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
+
 def filter_list(l):
     res = []
 

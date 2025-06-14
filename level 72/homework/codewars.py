@@ -83,3 +83,19 @@ def maskify(cc):
 
 def add_binary(a,b):
     return bin(a + b)[2:]
+
+# 2-6)
+
+# https://www.codewars.com/kata/55f8a9c06c018a0d6e000132
+def validate_pin(pin):
+    return (len(pin) == 4 or len(pin) == 6) and pin.isdigit()
+# https://www.codewars.com/kata/56606694ec01347ce800001b
+def is_triangle(a, b, c):
+    return a > 0 and b > 0 and c > 0 and \
+        a + b > c and a + c > b and b + c > a
+# https://www.codewars.com/kata/5656b6906de340bd1b0000ac
+#process
+# https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
+#process
+# https://www.codewars.com/kata/56269eb78ad2e4ced1000013
+# process

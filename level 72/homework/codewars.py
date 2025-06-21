@@ -94,8 +94,8 @@ def is_triangle(a, b, c):
     return a > 0 and b > 0 and c > 0 and \
         a + b > c and a + c > b and b + c > a
 # https://www.codewars.com/kata/5656b6906de340bd1b0000ac
-#process
+#idk
 # https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
-#process
+#idk
 # https://www.codewars.com/kata/56269eb78ad2e4ced1000013
-# process
+#idk

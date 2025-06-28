@@ -91,11 +91,26 @@ def validate_pin(pin):
     return (len(pin) == 4 or len(pin) == 6) and pin.isdigit()
 # https://www.codewars.com/kata/56606694ec01347ce800001b
 def is_triangle(a, b, c):
-    return a > 0 and b > 0 and c > 0 and \
-        a + b > c and a + c > b and b + c > a
+    return a+b>c and b+c>a and c+a>b
 # https://www.codewars.com/kata/5656b6906de340bd1b0000ac
-#idk
+def longest(a1, a2):
+    return "".join(sorted(set(a1+a2)))
 # https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
-#idk
+def open_or_senior(data):
+    res = []
+    
+    for i in data:
+        if i[0] >= 55 and i[1] > 7:
+            res.append("Senior")
+        else:
+            res.append("Open")
+    
+    return res
 # https://www.codewars.com/kata/56269eb78ad2e4ced1000013
-#idk
+def find_next_square(sq):
+    
+    # შევამოწმოთ თუ არის perfect square
+    if int(sq**0.5)*int(sq**0.5) != sq: return -1
+
+    # დავაბრუნოთ შემდეგი perfect square
+    return (int(sq**0.5)+1)**2
